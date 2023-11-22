@@ -1,0 +1,368 @@
+   
+   
+   *{
+    padding: 0;
+    margin: 0;
+  }
+    h1, h2, h3, h4, h5, h6, p, a{
+      padding: 0;
+      margin: 0;
+    }
+
+  /* font-family: 'Playfair Display', serif; */
+
+  /* hedder_section */
+
+  .finexco_logo{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+      font-family: 'Playfair Display', serif;
+  }
+  .finexco_logo:hover{
+    color: #fff;
+  }
+  .banner{
+    background-image: url(../images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 130vh;
+
+  }
+  .nav-item{
+  padding-left: 30px;
+
+  }
+    .nav-link{
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Playfair Display', serif;
+      position: relative;
+  }
+  a.nav-link::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: 0px;
+    right: 0;
+    background-color: #008ed6;
+    transition: .5s all ease-in-out;
+}
+a.nav-link::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: 0px;
+    left: 0;
+    background-color: #008ed6;
+    transition: .5s all ease-in-out;
+}
+a.nav-link:hover{
+    color: #fffefe;
+}
+a.nav-link:hover::after{
+    width: 47%;
+}
+a.nav-link:hover::before{
+    width: 47%;
+}
+    .navbar-nav{
+
+  }
+  .collapse{
+
+  }
+  .nav_call{
+    padding: 15px 30px;
+  }
+
+  .nav-link:hover{
+      color: #00bbf0;
+  }
+  .surch_bar{
+    
+  }
+  .surch_bar input{
+    margin: 0px 30px;
+    outline: none;
+    font-family: 'Playfair Display', serif;
+
+}
+  .surch_bar button{
+      outline: none;
+      font-family: 'Playfair Display', serif;
+  }
+
+  .h1_section{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+  .h1_center{
+
+  }
+  .h1_center h1{
+    color: #fff;
+    font-size: 75px;
+    /* padding-bottom: 30px; */
+    font-family: 'Playfair Display', serif;
+}
+  .h1_center p{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding: 30px 0px;
+    font-size: 18px;
+    padding-right: 20px;
+    font-family: 'Playfair Display', serif;
+}
+  .h1_center a{
+    color: #333;
+    background-color: #00bbf0;
+    border: 1px solid #00bbf0;
+    color: #fff;
+    padding: 11px 50px;
+    /* margin-top: 11px; */
+    border-radius: 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+.h1_center a:hover{
+  color: #fff;
+  background-color: #2057a0;
+}
+.saider_img{
+
+}
+  .saider_img img{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 65vh;
+    margin: 25px 0px;
+    animation: work 5s infinite;
+}
+@keyframes work {
+  0% {
+       transform: translateY(-50px);
+  }
+  50% {
+         transform: translateY(50px);
+  }
+  100% {
+         transform: translateY(-50px);
+  }
+}
+
+
+
+/* service_section */
+
+
+  .our_service{
+      padding-top: 50px;
+  }
+  .our_service h1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.animatert{
+  height: 2px;
+  width: 70px;
+  display: block;
+  background-color: #00bbf0;
+  margin: auto;
+  position: relative;
+  animation: 1s ease 0s infinite alternate none running bitcoines;
+}
+
+@keyframes bitcoines {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 70px;
+  }
+}
+  .our_service span{
+      color: #008ed6;
+      font-family: 'Playfair Display', serif;
+  }
+  .our_service p{
+
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 0px;
+  font-family: 'Playfair Display', serif;
+
+}
+.services_3_cad{
+  text-align: center;
+  background-color: #f8f8f9;
+}
+.services_3_cad img{
+  height: auto;
+  width: 100px;
+  padding-top: 35px;
+}
+.services_3_cad h3{
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px 0px;
+  font-family: 'Playfair Display', serif;
+}
+.services_3_cad p{
+  padding: 0px 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+}
+.services_3_cad a{
+  margin: 25px 0px;
+  border: 1px solid #00bbf0;
+  background-color: #00bbf0;
+  color: #fff;
+  width: 50%;
+  padding: 10px 0px;
+  border-radius: 0;
+  font-family: 'Playfair Display', serif;
+}
+.services_3_cad a:hover{
+   color: #fff;
+   background-color: #2057a0;
+}
+.leniyal a{
+    border: 1px solid #00bbf0;
+    padding: 10px 60px;
+    border-radius: 0;
+    background-color: #00bbf0;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.leniyal{
+  /* margin: 40px 0px; */
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 75px;
+}
+.leniyal a:hover{
+  color: #fff;
+  background-color: #2057a0;
+}
+
+  /* service_section */
+
+
+/* .about_us */
+
+.about{
+  background-color: #00204a;
+}
+
+.about_contant{
+    text-align: center;
+}
+.about_contant h1{
+  color: #fff;
+  padding: 20px 0px;
+}
+.about_contant span{
+    color: #00bbf0;
+}
+.about_contant p{
+  color: #fff;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+.spanis{
+  height: 2px;
+  width: 70px;
+  display: block;
+  background-color: #00bbf0;
+  margin: auto;
+  position: relative;
+  animation: 1s ease 0s infinite alternate none running bitcoinesk;
+}
+
+@keyframes bitcoinesk {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 70px;
+  }
+}
+.imgs_rotate{
+  
+}
+.imgs_rotate img{
+  height: auto;
+  width: 100%;
+}
+.about_us_contant{
+
+}
+.about_us_flrx{
+  display: flex;
+  align-items: center;
+  min-height: 65vh;
+}
+.about_us_contant h2{
+  color: #fff;
+  padding: 30px 0px;
+  font-size: 32px;
+}
+.about_us_contant h6{
+  color: #fff;
+  font-size: 16px;
+}
+.about_us_contant p{
+  color: #fff;
+  padding: 30px 0px;
+  font-size: 16px;
+}
+.btn_altarnetive{
+  color: #fff;
+  border: 1px solid #00bbf0;
+  padding: 10px 50px;
+  border-radius: 0;
+  background-color: #00bbf0;
+}
+.btn_altarnetive:hover{
+    background-color: #2057a0;
+    color: #fff;
+}
+.imgs_rotate img{
+
+}
+.imgs_rotate img{
+  align-items: center;
+  animation: workkr 5s infinite;
+}
+@keyframes workkr {
+0% {
+     transform: translateX(-50px);
+}
+50% {
+       transform: translateX(50px);
+}
+100% {
+       transform: translateX(-50px);
+}
+}
+
+
+
+/* .about_us */
